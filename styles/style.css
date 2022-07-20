@@ -11,7 +11,7 @@ body{
     align-items: center;
 }
 .cta{
-    background-color: rgba(221, 0, 0, 1);
+    background-color: rgba(205, 197, 9, 1);
     color: white;
 }
 a{
@@ -22,7 +22,7 @@ a{
     display: inline-block;
 }
 .view-all-button{
-    background-color: rgba(221, 0, 0, 1);
+    background-color: rgba(205, 197, 9, 1);
     color: white;
     border-radius: 10px;
     font-size: 1.5em;
@@ -84,7 +84,7 @@ a{
     font-weight: 700;
 }
 #main .main .left a:nth-child(3){
-    background-color: rgba(221, 0, 0, 1);
+    background-color: rgba(205, 197, 9, 1);
     color: white;
 }
 #main .main .right{
@@ -129,7 +129,7 @@ a{
     width: 100%;
 }
 #footer .footer a{
-    color: white;
+    color: rgba(185, 185, 185, 1);
     font-weight: 200;
 }
 
@@ -211,7 +211,7 @@ a{
     }
     #footer .footer{
         text-align: center;
-        min-height: 60vh;
+        min-height: 50vh;
     }
     #footer .footer .footer-links{
         display: flex;
