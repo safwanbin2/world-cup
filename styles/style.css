@@ -1,0 +1,137 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cta{
+    background-color: rgba(221, 0, 0, 1);
+    color: white;
+}
+a{
+    text-decoration: none;
+    
+    padding: 15px 35px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* Hero start */
+#hero{
+    margin: 30px 0;
+}
+#hero .hero{
+    max-width: 1200px;
+    background-color: rgba(22, 22, 22, 1);
+    border-radius: 15px;
+    min-height: 90vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+#hero .hero .hero-info, .hero-banner{
+    width: 40%;
+    color: white;
+}
+#hero .hero .hero-info h1{
+    font-size: 3em;
+    font-weight: 900;
+}
+#hero .hero .hero-banner img{
+    width: 95%;
+}
+/* hero end */
+
+/* main start */
+
+#main{
+    margin: 100px 0;
+}
+#main .main{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+#main .main .left{
+    background-color: rgba(22, 22, 22, 1);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 20px;
+}
+#main .main .left a{
+    background-color: white;
+    display: inline-block;
+    margin: 10px 0;
+    color: black;
+    text-align: center;
+    font-weight: 700;
+}
+#main .main .left a:nth-child(3){
+    background-color: rgba(221, 0, 0, 1);
+    color: white;
+}
+#main .main .right{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 15px;
+    grid-column-gap: 15px;
+    margin-left: 15px;
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 10px;
+}
+.card img{
+    width: 100%;
+}
+.card-info{
+    padding: 10px;
+}
+.card a{
+    color: black;
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+/* main end */
+/* footer start */
+#footer{
+    background-color: rgba(22, 22, 22, 1);
+    min-height: 50vh;
+}
+#footer .footer{
+    max-width: 1200px;
+    height: 100%;
+    color: white;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 4em;
+}
+#footer .footer hr{
+    border: 1px solid rgba(39, 39, 39, 0.541);
+    width: 100%;
+}
+#footer .footer a{
+    color: white;
+    font-weight: 200;
+}
+
+/* footer end */
+
+/* media queries */
+/* tap view start*/
+
+@media screen and (max-width: 992px){
+    
+}
+
+/* tab view end */
