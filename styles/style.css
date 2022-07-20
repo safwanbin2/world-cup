@@ -112,10 +112,10 @@ a{
 .card-info{
     padding: 10px;
 }
-.card a{
-    color: black;
-    border: 1px solid black;
+.transfer-cta{
+    color: white;
     padding: 5px 10px;
+    background-color: rgba(239, 35, 60, 1);
 }
 /* main end */
 /* footer start */
