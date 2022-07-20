@@ -136,7 +136,7 @@ a{
 /* footer end */
 
 /* media queries */
-/* tap view start*/
+/* tab view start*/
 
 @media screen and (max-width: 992px){
     #hero .hero{
@@ -160,6 +160,10 @@ a{
         background-color: white;
         justify-content: space-between;
     }
+    #main .main .left a{
+        border: .5px solid grey;
+        margin: 0 10px;
+    }
     #main .main .right{
         grid-template-columns: repeat(2, 1fr);
         width: 95%;
@@ -175,3 +179,44 @@ a{
 }
 
 /* tab view end */
+/* mobile view start */
+
+@media screen and (max-width:668px) {
+    #hero .hero{
+        display: flex;
+        flex-direction: column;
+    }
+    #hero .hero .hero-info, .hero-banner{
+        width: 80%;
+        text-align: center;
+    }
+    #hero .hero .hero-info h1{
+        font-size: 30px;
+    }
+    #main .main .left{
+        display: flex;
+        flex-direction: column;
+    }
+    #main .main .left a{
+        border: .5px solid grey;
+        margin: 5px 0;
+    }
+    #main .main .right{
+        grid-template-columns: repeat(1, 1fr);
+        width: 95%;
+        margin: 0 auto;
+    }
+    #main .main .view-all-button{
+        display: none;
+    }
+    #footer .footer{
+        text-align: center;
+        min-height: 60vh;
+    }
+    #footer .footer .footer-links{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* mobile view end */
